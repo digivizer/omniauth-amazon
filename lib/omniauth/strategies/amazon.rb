@@ -41,7 +41,8 @@ module OmniAuth
 
       extra do
         {
-          'postal_code' => raw_info['Profile']['PostalCode']
+          'postal_code' => raw_info['Profile']['PostalCode'],
+          'raw_info' => raw_info
         }
       end
 
